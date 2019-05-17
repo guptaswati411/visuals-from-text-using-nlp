@@ -26,14 +26,17 @@ e) Returns the image with the best score.
 ## INSTALLATION
 Note: We suggest using a OSX or Linux due to heroku/Windows setup requirements
 
-1. Download and extract the zip file
+### Step 1
+Download and extract the zip file
 
-2. The python requirements and dependencies
+### Step 2
+The python requirements and dependencies
 are present in the requirements.txt file. The command to install them is
 
 `pip3 install -r requirements.txt`
 
-3. To download the nltk requirements, open the python shell and run the following to open the nltk downloader:
+### Step 3
+To download the nltk requirements, open the python shell and run the following to open the nltk downloader:
 
 `import nltk`
 
@@ -49,30 +52,28 @@ The nltk libraries to download are:
 
 These names can also be found in nltk.txt
 
-
-4. In addition, to run the code locally you will need to install the heroku Command-Line-Interface
+### Step 4
+In addition, to run the code locally you will need to install the heroku Command-Line-Interface
 
 Installation instructions can be found [here](https://devcenter.heroku.com/articles/heroku-cli)
 
 Detailed instructions for setting up heroku can be found [here](https://devcenter.heroku.com/articles/getting-started-with-python)
 
-5. You will need to create a new Heroku account if you don't already have one.
+### Step 5
+You will need to create a new Heroku account if you don't already have one.
 Create a free instance with:
 
 `heroku create example_name`
 
-
-6. A Google Cloud Console Account will need to be created along with an API key.
+### Step 6
+A Google Cloud Console Account will need to be created along with an API key.
 Instructions for that can be found [here](https://cloud.google.com/vision/docs/libraries#client-libraries-install-python)
 
 Once Google Cloud has been installed and an API key generated, save the file somewhere secure and run the following command:
 
-6.5 
+OSX/Linux: `export GOOGLE_APPLICATION_CREDENTIALS='path-to-your-key'`
 
-OSX/Linux:
-	`export GOOGLE_APPLICATION_CREDENTIALS='path-to-your-key'`
-Windows:
-	`set GOOGLE_APPLICATION_CREDENTIALS='path-to-your-key'`
+Windows: `set GOOGLE_APPLICATION_CREDENTIALS='path-to-your-key'`
 
 
 ## EXECUTION
