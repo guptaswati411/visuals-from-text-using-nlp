@@ -1,7 +1,7 @@
 # Adding visuals to text through NLP
 
 
-## DESCRIPTION
+## Description
 Our package is deployed live [here](https://cse6242-project20.herokuapp.com)
 
 This project intends to find relevant images to text using Natural Language
@@ -23,7 +23,7 @@ and labels providet a score to each image.
 e) Returns the image with the best score.
 
 
-## INSTALLATION
+## Installation
 Note: We suggest using a OSX or Linux due to heroku/Windows setup requirements
 
 ### Step 1
@@ -76,7 +76,7 @@ OSX/Linux: `export GOOGLE_APPLICATION_CREDENTIALS='path-to-your-key'`
 Windows: `set GOOGLE_APPLICATION_CREDENTIALS='path-to-your-key'`
 
 
-## EXECUTION
+## Execution
 
 You can run the web app locally now using the 'heroku local' command. This
 starts a local host(localhost:5000) server to interact with the web app.
